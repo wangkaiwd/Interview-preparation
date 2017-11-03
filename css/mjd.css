@@ -1,0 +1,412 @@
+body {
+    background-color: #f7f7f7;
+    padding-bottom: 44px;
+}
+
+img {
+    vertical-align: top;
+    width: 100%;
+}
+/* 顶部搜索框 */
+header {
+    position: relative;
+    height: 40px;
+    background-color: #c91523;
+    font-size: 16px;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 56px;
+    height: 21px;
+    background: url("../images/jd-sprites.png") no-repeat 0 -109px;
+    background-size: 200px 200px; 
+    margin-top: 8px;
+}
+
+/* 搜索框 */
+.search-box {
+    position: relative;
+    height: 100%;
+    padding-left: 75px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.search {
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding-left: 28px;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+}
+.search-icon {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    top: 5px;
+    left: 80px;
+    background: url("../images/jd-sprites.png") no-repeat -59px -104px;
+    background-size: 200px 200px;
+}
+
+.login {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* 主体部分 */
+.banner {
+    margin-top: 3px;
+    background-color: #fff;
+}
+.banner img {
+    width: 100%;
+}
+
+.nav {
+    margin-top: 3px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.nav ul {
+    margin-top: 10px;
+}
+.nav li {
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 25%;
+}
+
+.nav li img {
+    width: 40px;
+    height: 40px;
+}
+.nav li span {
+    display: block;
+    margin-top: 5px;
+}
+
+/* 秒杀 */
+.seckill {
+    padding: 0 10px;
+    background-color: #fff;
+    margin-top: 3px;
+}
+.seckill-title {
+    height: 35px;
+}
+.seckill-title h3 {
+    position: relative;
+    float: left;
+    font-size: 14px;
+    color: #CA1327;
+    font-weight: normal;
+    line-height: 35px;
+    padding-left: 22px;
+}
+.seckill-title>span {
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    margin: 10px 2px;
+    border-radius: 3px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    line-height: 16px;
+}
+.seckill-title .sec-time {
+    margin-left: 5px;
+}
+.seckill-title h3 span{
+    position: absolute;
+    top: -2px;
+    left: 0;
+    margin-top: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 26px;
+    background: url("../images/jd-sprites.png") no-repeat -84px -107px;
+    background-size: 200px 200px;
+}
+.seckill-title a {
+    line-height: 35px;
+    float: right;
+}
+.product ul {
+    overflow: hidden;
+}
+.product li {
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product li img {
+    width: 100%;
+}
+.product li p {
+    margin-top: 5px;
+    color: #ed5657;
+}
+.product li del {
+    color: #777;
+}
+.go {
+    padding: 14% 5px 5px;
+    background: url("../upload/banner_bg.jpg") no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+.go img {
+    width: 100%;
+}
+.go .left {
+    width: 50%;
+    float: left;
+}
+.go .right {
+    width: 50%;
+    float:right;
+}
+
+/* 热卖 */
+.hotsale {
+    background-color: #fff;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.hotsale li a {
+    float: left;
+    width: 50%;
+}
+.hotsale li:first-child a {
+    width: 33.33%;
+}
+
+.feature {
+    margin-top: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.feature h2,
+.theme h2 {
+    height: 34px;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: normal;
+}
+
+.feature ul li {
+    float: left;
+    width: 50%;
+}
+
+.feature ul li:nth-child(3) {
+    clear: both;
+}
+
+.advert {
+    margin-top: 5px;
+}
+
+.theme {
+    margin-top: 5px;
+    background-color: #fff;
+}
+.theme ul {
+    overflow: hidden;
+}
+
+.theme li a {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.theme li:nth-child(2) {
+    clear: both;
+}
+.theme li:first-child a:nth-child(-n+2) {
+    width: 50%;
+}
+
+.meeting {
+    background-color: #fff;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.meeting a {
+    float: left;
+}
+.meeting a:first-child {
+    width: 40%;
+}
+.meeting a:nth-child(2),
+.meeting a:nth-child(3) {
+    width: 30%;
+}
+
+.guess {
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 0 10px 5px;
+    overflow: hidden;
+}
+
+.guess .guess-title {
+    position: relative;
+    height: 34px;
+    line-height: 34px;
+}
+.guess .seeyoulike {
+    font-size: 16px;
+}
+.guess .understand {
+    float: right;
+    font-size: 12px;
+    color: #c91523;
+}
+.guess .user-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 84px;
+    width: 18px;
+    height: 18px;
+    background: url("../images/icon-login.png") no-repeat;
+    background-size: 18px 18px;
+}
+.guess .guess-item li {
+    float: left;
+    width: 47%;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+.guess .guess-item li:nth-child(even) {
+    margin-left: 6%;
+}
+.guess-item {
+    margin-top: 4px;
+}
+.guess-item li p {
+    height: 40px;
+    line-height: 20px;
+    /* 多行显示超出... */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.guess .price-box {
+    border-top: 1px solid #ccc;
+    margin-top: 8px;
+    overflow: hidden;
+    padding-top: 12px;
+}
+.price-box span {
+    display: inline-block;
+    margin-top: 4px;
+    color: #c91523;
+}
+
+.price-box a {
+    float: right;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: #f3f5f7;
+}
+.loadmore .click-more {
+    border-top: 1px solid #DEDEDE;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: #7F7F7F;
+}
+.footer-nav {
+    border-top: 1px solid #DEDEDE;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+.footer-nav a {
+    color: #7F7F7F;
+    display: inline-block;
+    padding: 0 4%;
+}
+.client {
+    border-top: 1px solid #DEDEDE;
+    height: 76px;
+    text-align: center;
+}
+.client a {
+    padding-top: 10px;
+    display: inline-block;
+    margin: 0 10%;
+    box-sizing: border-box;
+    color: #7F7F7F;
+}
+.client span {
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    background: url("../images/jd-sprites.png") no-repeat;
+    background-size: 200px 200px;
+}
+.client a:nth-child(1) span {
+    background-position: -115px -65px;
+}
+.client a:nth-child(2) span {
+    background-position: -35px -65px;
+}
+.client a:nth-child(3) span {
+    background-position: -75px -65px;
+}
+.copyright {
+    border-top: 1px solid #DEDEDE;
+    height: 45px;
+    line-height: 45px;
+}
+.copyright p {
+    text-align: center;
+    color: #7F7F7F; 
+}
+/* 底部工具栏 */
+aside {
+    position: fixed;
+    width: 100%;
+    height: 44px;
+    background-color: #fff;
+    bottom: 0px;
+    left: 0px;
+}
+
+.toolsbar a {
+    display: inline-block;
+    height: 100%;
+    width: 19%;
+    text-align: center;
+}
+
+.toolsbar a img {
+    height: 44px;
+    width: auto;
+}
