@@ -33,7 +33,7 @@ window.addEventListener("offline",function(){
       2. 检测的是正常情况的（wifi，局域网）
 
 ### 多媒体
-1. 属性  
+1. 属性
 
     属性名| 功能 
     -|-
@@ -42,6 +42,7 @@ window.addEventListener("offline",function(){
     currentTime | 设置或返回音频/视频中的当前播放位置（以秒记）   
     ended       | 返回音频/视频的播放是否已结束(不用)                
 2. 事件
+
     功能| 事件名
     - | -
     当文件就绪可以开始播放时运行的脚本（缓冲以足够开始时）        | oncanplay
@@ -49,6 +50,7 @@ window.addEventListener("offline",function(){
     当媒介已到达结尾时运行的脚本（可以发送类似“感谢观看”之类的消息）| onended     
 
 3. 方法
+
     方法名  | 功能 
     - | -
     play()  | 开始播放音频/视频  
@@ -94,6 +96,7 @@ window.addEventListener("offline",function(){
     6. 方法简洁明了，容易操作 
 
 **sessionStorage**  
+
 方法| 功能
 - | -
 window.sessionStorage.setItem(key,value) | 添加数据
@@ -103,7 +106,8 @@ window.sessionStorage.clear()            | 清除数据
 window.sessionStorage.key(n)(n从0开始，key按unicode编码排序) | 获取key
 > 应用场景：存储一些少量的临时数据
 
-**localStorage**  
+**localStorage** 
+ 
 方法                                       | 功能
 - | -
 window.localStorage.setItem(key,value)   | 添加数据
@@ -215,7 +219,8 @@ heading           | 行进方向
 speed             | 地面速度
 
 失败时回调函数对象的属性(positionError.code)  
-| 属性   | 功能 
+
+属性   | 功能 
 - | -
 0 | 不包括其他错误编号中的错误 
 1 | 用户拒绝浏览器获取位置信息
