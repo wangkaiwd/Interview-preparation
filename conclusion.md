@@ -4,7 +4,7 @@
 * `flex`布局（需要多列举一些对应的属性）
 * `rem`布局
 * 水平垂直居中（至少能说出5种）
-  1. 要注意`flex`布局中的水平轴向和`justify-content`、`align-items`的关系
+  1. 要注意`flex`布局中的轴向和`justify-content`、`align-items`的关系，当`flex-direction`发生改变后，这里的`justify-content`并不一定代表着水平居中。
   2. 使用`line-height`的时候要考虑到对内部文字的一个影响
 * `css`选择器优先级
 * 清除浮动
@@ -12,17 +12,17 @@
 ### `React`
 > 最近面试的时候基本都要求会使用`react`
 
-* `redux`是如何将不同`action`通过于其对应的`reducer`来进行执行的
-* `redux-thunk`的作用及源码
-* `react-redux`中`connect`的用法码及源
+* `redux`是如何将不同`action`通过与其对应的`reducer`来进行执行的
+* 使用`redux-thunk`的场景，有没有了解过它的实现
+* `react-redux`中`connect`的用法及源码实现
 
 ### `Vue`
 > 感觉`vue`问的比较少，一般小公司可能会比较偏向于`vue`
 
 * `vue`中可以通过`computed`来发起一个`ajax`请求吗
-* `vuex`中如何使得组件可以通过`this.$store`来访问`vuex`中的属性和方法的
+* `vuex`中如何使得组件可以通过`this.$store`来访问`vuex`中的属性和方法的，谈谈它的原理
 * `vue`组件中的自定义属性如何进行获取（如自己在data下又定义了一个data2）
-* 自己有没有写过类似于`vuex`或者`vue-router`的一个插件
+* 自己有没有写过类似于`vuex`或者`vue-router`的插件
 
 ### `Webpack`
 * 手写一个`webpack`的基础配置
@@ -37,7 +37,7 @@
 ### `Node`
 > 大多数公司对`Node`的问题会问的比较少
 
-* 使用`express`监听服务，并通过原生`Node`实现一个文件的读取和写入的模块，在`express`中使用
+* 使用`express`监听服务，并通过原生`Node`实现一个文件的读取和写入模块，并在监听的服务中使用
 
 ### 算法
 * 数组去重(中小公司最常问)
