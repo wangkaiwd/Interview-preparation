@@ -19,5 +19,3 @@
 * flex-shrink
 * flex-basis
 * align-self
-
-
