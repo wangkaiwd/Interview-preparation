@@ -8,8 +8,25 @@
 * flex-wrap
 * flex-flow: 前俩个属性的简写
 * justify-content
+  * flex-start
+  * center
+  * flex-end
+  * space-between
+  * space-around
+  * space-evenly
 * align-item
+  * stretch
+  * flex-start
+  * flex-end
+  * center
+  * baseline
 * align-content
+  * flex-start
+  * center
+  * flex-end
+  * space-between
+  * space-around
+  * stretch
 
 ### 选项属性
 
@@ -19,3 +36,4 @@
 * flex-shrink
 * flex-basis
 * align-self
+  * equal to parent box align-item,but default option is `auto`
