@@ -14,7 +14,7 @@
 
 ### 如何写简历
 
-* `ResumeSample`仓库
+* [`ResumeSample`仓库](https://github.com/geekcompany/ResumeSample)
 * [写简历的技巧](https://github.com/atian25/blog/issues/3)
 * [超级简历](https://www.wondercv.com/) : 可以免费制作一份在线简历，并导出`pdf`
 
