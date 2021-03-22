@@ -12,6 +12,12 @@
 
 面试官会根据你各方面知识的掌握情况进行发问，你可以将他引入自己擅长的方向。
 
+### 如何写简历
+
+* `ResumeSample`仓库
+* [写简历的技巧](https://github.com/atian25/blog/issues/3)
+* [超级简历](https://www.wondercv.com/) : 可以免费制作一份在线简历，并导出`pdf`
+
 ### `JavaScript`基础
 
 * `JavaScript`有哪些数据类型？
